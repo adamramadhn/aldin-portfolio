@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nama Anda | UI/UX Product Designer</title>
+    <meta
+      name="description"
+      content="Portfolio one-page untuk UI/UX Product Designer yang fokus pada stakeholder alignment, riset pengguna, dan pengalaman produk yang baik."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#top" aria-label="Kembali ke awal">
+        <span class="brand-mark">NA</span>
+        <span>Nama Anda</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Ganti tema" data-theme-toggle>
+        <span class="toggle-track" aria-hidden="true">
+          <span class="toggle-thumb"></span>
+        </span>
+        <span class="theme-label">Dark</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-snap" aria-labelledby="hero-title" data-liquid-hero>
+        <canvas class="liquid-canvas" aria-hidden="true" data-liquid-canvas></canvas>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-vignette" aria-hidden="true"></div>
+        <div class="hero-content" data-reveal>
+          <p class="eyebrow">UI/UX Designer | Product Design</p>
+          <h1 id="hero-title">Product Designer</h1>
+          <p class="hero-copy">
+            Saya menjembatani kebutuhan stakeholder dan insight end user menjadi pengalaman produk
+            yang jelas, nyaman digunakan, dan siap dikembangkan.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary magnetic" href="#work">Lihat Karya</a>
+            <a class="button secondary magnetic" href="#contact">Ajak Diskusi</a>
+          </div>
+        </div>
+
+        <div class="liquid-card liquid-card-left" data-liquid-card data-reveal>
+          <span>Research signal</span>
+          <strong>User need mapped</strong>
+          <small>Interview, journey, pain point</small>
+        </div>
+
+        <div class="liquid-card liquid-card-right" data-liquid-card data-reveal>
+          <span>Product clarity</span>
+          <strong>8+ flows</strong>
+          <small>Prototype ready to validate</small>
+        </div>
+
+        <div class="hero-status" data-reveal>
+          <span class="status-dot" aria-hidden="true"></span>
+          Available for product teams, discovery sprint, and UX audit
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Ringkasan keahlian">
+        <div class="intro-grid">
+          <article data-reveal>
+            <span class="metric">8+</span>
+            <p>Alur produk, prototype, dan journey map yang dapat diuji bersama tim.</p>
+          </article>
+          <article data-reveal>
+            <span class="metric">3</span>
+            <p>Fokus utama: stakeholder alignment, user research, dan scalable UI design.</p>
+          </article>
+          <article data-reveal>
+            <span class="metric">1</span>
+            <p>Satu tujuan: produk terasa mudah, dipercaya, dan relevan bagi penggunanya.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Selected work</p>
+          <h2 id="work-title">Studi kasus yang fokus pada outcome.</h2>
+          <p>
+            Setiap proyek diposisikan sebagai cerita kolaborasi: masalah yang perlu dipahami, keputusan
+            desain yang perlu dipilih, dan pengalaman pengguna yang perlu dibuktikan.
+          </p>
+        </div>
+
+        <div class="filter-row" role="tablist" aria-label="Filter studi kasus" data-reveal>
+          <button class="filter-button is-active" type="button" data-filter="all" role="tab" aria-selected="true">
+            All
+          </button>
+          <button class="filter-button" type="button" data-filter="research" role="tab" aria-selected="false">
+            Research
+          </button>
+          <button class="filter-button" type="button" data-filter="saas" role="tab" aria-selected="false">
+            SaaS
+          </button>
+          <button class="filter-button" type="button" data-filter="mobile" role="tab" aria-selected="false">
+            Mobile
+          </button>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card tilt-card" data-category="research saas" data-reveal tabindex="0">
+            <div class="case-topline">
+              <span>Discovery Sprint</span>
+              <span>01</span>
+            </div>
+            <h3>Merangkum pain point stakeholder dan user menjadi product direction.</h3>
+            <p>
+              Facilitated interview, mapped assumption, dan membuat prototype cepat untuk memvalidasi
+              prioritas fitur sebelum masuk development.
+            </p>
+            <div class="tag-row" aria-label="Keahlian terkait">
+              <span>Stakeholder Workshop</span>
+              <span>User Interview</span>
+              <span>Prototype</span>
+            </div>
+          </article>
+
+          <article class="case-card tilt-card" data-category="saas" data-reveal tabindex="0">
+            <div class="case-topline">
+              <span>SaaS Dashboard</span>
+              <span>02</span>
+            </div>
+            <h3>Mendesain ulang workflow agar tim operasional lebih cepat mengambil keputusan.</h3>
+            <p>
+              Menyederhanakan informasi padat menjadi dashboard yang lebih mudah dipindai, dengan empty
+              state dan action hierarchy yang lebih jelas.
+            </p>
+            <div class="tag-row" aria-label="Keahlian terkait">
+              <span>Information Architecture</span>
+              <span>Design System</span>
+              <span>UX Writing</span>
+            </div>
+          </article>
+
+          <article class="case-card tilt-card" data-category="mobile research" data-reveal tabindex="0">
+            <div class="case-topline">
+              <span>Mobile Experience</span>
+              <span>03</span>
+            </div>
+            <h3>Membangun onboarding yang lebih ramah tanpa mengurangi kejelasan bisnis.</h3>
+            <p>
+              Menguji beberapa variasi flow, memperbaiki friction di first-use experience, dan
+              menyelaraskan copy dengan ekspektasi end user.
+            </p>
+            <div class="tag-row" aria-label="Keahlian terkait">
+              <span>Usability Testing</span>
+              <span>Journey Mapping</span>
+              <span>Interaction Design</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section approach-band" id="approach" aria-labelledby="approach-title">
+        <div class="approach-layout">
+          <div class="section-heading compact" data-reveal>
+            <p class="eyebrow">Design approach</p>
+            <h2 id="approach-title">Saya nyaman berada di tengah kebutuhan bisnis dan kebutuhan pengguna.</h2>
+            <p>
+              Peran saya bukan hanya membuat layar terlihat baik, tetapi membantu tim memahami konteks,
+              memilih prioritas, dan membuat pengalaman produk yang bisa dipertanggungjawabkan.
+            </p>
+          </div>
+
+          <div class="lens-panel" data-reveal>
+            <div class="lens-tabs" role="tablist" aria-label="Lensa kerja desain">
+              <button class="lens-tab is-active" type="button" data-lens="stakeholder" role="tab" aria-selected="true">
+                Stakeholder
+              </button>
+              <button class="lens-tab" type="button" data-lens="user" role="tab" aria-selected="false">User</button>
+              <button class="lens-tab" type="button" data-lens="product" role="tab" aria-selected="false">
+                Product
+              </button>
+            </div>
+
+            <div class="lens-content" data-lens-content>
+              <p class="lens-kicker">Alignment first</p>
+              <h3>Menjadikan diskusi lebih konkret.</h3>
+              <p>
+                Saya membantu stakeholder mengubah asumsi, target, dan constraint menjadi keputusan desain
+                yang dapat diuji, bukan hanya opini yang saling tarik.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process" aria-labelledby="process-title">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Process</p>
+          <h2 id="process-title">Ritme kerja yang kolaboratif dan tetap terarah.</h2>
+          <p>
+            Saya suka proses yang transparan: tim tahu apa yang sedang dipelajari, apa yang diputuskan,
+            dan apa yang masih perlu divalidasi.
+          </p>
+        </div>
+
+        <div class="process-list">
+          <button class="process-item is-open" type="button" data-process data-reveal>
+            <span class="process-index">01</span>
+            <span class="process-copy">
+              <strong>Frame the problem</strong>
+              <span>Memahami konteks bisnis, risiko, user segment, dan metrik yang ingin dipengaruhi.</span>
+            </span>
+          </button>
+          <button class="process-item" type="button" data-process data-reveal>
+            <span class="process-index">02</span>
+            <span class="process-copy">
+              <strong>Listen and map</strong>
+              <span>Interview, observasi, journey map, dan affinity untuk menemukan pola kebutuhan.</span>
+            </span>
+          </button>
+          <button class="process-item" type="button" data-process data-reveal>
+            <span class="process-index">03</span>
+            <span class="process-copy">
+              <strong>Prototype the decision</strong>
+              <span>Membuat flow, wireframe, dan prototype yang cukup jelas untuk menguji arah desain.</span>
+            </span>
+          </button>
+          <button class="process-item" type="button" data-process data-reveal>
+            <span class="process-index">04</span>
+            <span class="process-copy">
+              <strong>Validate and refine</strong>
+              <span>Menggabungkan feedback, usability signal, dan feasibility sebelum handoff.</span>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section proof-band" aria-labelledby="proof-title">
+        <div class="proof-layout">
+          <div class="quote-block" data-reveal>
+            <p class="eyebrow">Working style</p>
+            <h2 id="proof-title">Friendly to collaborate with, precise when making decisions.</h2>
+            <p>
+              "Saya percaya produk yang baik lahir dari percakapan yang jujur, data yang cukup, dan
+              desain yang punya alasan."
+            </p>
+          </div>
+
+          <div class="signal-grid" aria-label="Sinyal kualitas kerja">
+            <article data-reveal>
+              <span>Clarity</span>
+              <strong>Scope, flow, dan trade-off dibuat mudah dipahami.</strong>
+            </article>
+            <article data-reveal>
+              <span>Empathy</span>
+              <strong>Keputusan desain berangkat dari kebutuhan nyata pengguna.</strong>
+            </article>
+            <article data-reveal>
+              <span>Craft</span>
+              <strong>Detail UI, copy, dan interaksi dijaga agar terasa matang.</strong>
+            </article>
+            <article data-reveal>
+              <span>Handoff</span>
+              <strong>Dokumentasi dan design spec dibuat agar developer bisa bergerak.</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel" data-reveal>
+          <p class="eyebrow">Let us talk</p>
+          <h2 id="contact-title">Punya produk yang perlu dibuat lebih jelas dan menyenangkan digunakan?</h2>
+          <p>
+            Saya terbuka untuk diskusi portfolio, discovery sprint, UX audit, dan kolaborasi product design
+            bersama tim yang ingin belajar langsung dari pengguna.
+          </p>
+          <div class="contact-actions">
+            <a class="button primary magnetic" href="mailto:hello@namaanda.design">hello@namaanda.design</a>
+            <button class="button secondary magnetic" type="button" data-copy="hello@namaanda.design">
+              Copy Email
+            </button>
+          </div>
+          <p class="copy-feedback" aria-live="polite" data-copy-feedback></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; 2026 Nama Anda</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
